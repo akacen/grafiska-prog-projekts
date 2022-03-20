@@ -2,6 +2,7 @@
 
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 const isProduction = process.env.NODE_ENV == "production";
 
@@ -10,6 +11,13 @@ const config = {
   output: {
     path: path.resolve(__dirname, "dist"),
   },
+  devtool: "source-map",
+  resolve:{
+    fallback:{
+      fs: false,
+      path: false
+    }
+  },
   devServer: {
     open: true,
     host: "localhost",
@@ -17,6 +25,12 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "index.html",
+    }),
+    
+    new CopyWebpackPlugin({
+      patterns: [
+        {from: "assets"}
+      ]  
     }),
 
     // Add your plugins here

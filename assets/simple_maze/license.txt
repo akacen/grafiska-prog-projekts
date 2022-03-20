@@ -1,0 +1,11 @@
+Model Information:
+* title:	Simple Maze
+* source:	https://sketchfab.com/3d-models/simple-maze-2bd7e0ffbaad44c08ef9281fd734289b
+* author:	Yobibren (https://sketchfab.com/brendonburlew)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Simple Maze" (https://sketchfab.com/3d-models/simple-maze-2bd7e0ffbaad44c08ef9281fd734289b) by Yobibren (https://sketchfab.com/brendonburlew) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
