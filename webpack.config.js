@@ -3,6 +3,10 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+<<<<<<< HEAD
+=======
+
+>>>>>>> 98277ee023d30002fc76c7cce1d6b8f4e3f54944
 
 const isProduction = process.env.NODE_ENV == "production";
 
@@ -12,8 +16,13 @@ const config = {
     path: path.resolve(__dirname, "dist"),
   },
   devtool: "source-map",
+<<<<<<< HEAD
   resolve:{
     fallback:{
+=======
+  resolve: {
+    fallback: {
+>>>>>>> 98277ee023d30002fc76c7cce1d6b8f4e3f54944
       fs: false,
       path: false
     }
@@ -33,6 +42,11 @@ const config = {
       ]  
     }),
 
+    new CopyWebpackPlugin({
+      patterns: [
+        {from: 'assets'}
+      ]
+    }),
     // Add your plugins here
     // Learn more about plugins from https://webpack.js.org/configuration/plugins/
   ],

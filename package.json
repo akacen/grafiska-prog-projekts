@@ -2,7 +2,11 @@
   "name": "my-webpack-project",
   "version": "1.0.0",
   "description": "My webpack project",
+<<<<<<< HEAD
   "main": "OrbitControls.js",
+=======
+  "main": "index.js",
+>>>>>>> 98277ee023d30002fc76c7cce1d6b8f4e3f54944
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production --node-env=production",
@@ -11,11 +15,24 @@
     "watch": "webpack --watch",
     "serve": "webpack serve"
   },
+<<<<<<< HEAD
   "keywords": [
     "sol"
   ],
   "author": "Kristaps Picelevics",
   "license": "ISC",
+=======
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ancha49/md_3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ancha49/md_3/issues"
+  },
+  "homepage": "https://gitlab.com/ancha49/md_3#readme",
+>>>>>>> 98277ee023d30002fc76c7cce1d6b8f4e3f54944
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.17.0",
     "ammojs-typed": "^1.0.6",
